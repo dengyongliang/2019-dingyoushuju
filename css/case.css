@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.pageCase .main img{
+  display: inline-block;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .pageCase .banner{
+    background: url(../img/case/img_01.png) no-repeat 50% 50%;
+  }
+  .pageCase .main img{
+    margin-bottom: 50px;
+  }
+}

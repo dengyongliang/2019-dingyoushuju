@@ -1,0 +1,63 @@
+@charset "UTF-8";
+.pageAboutUs .main img{
+  display: inline-block;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+.pageAboutUs .main .row-advantage{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pageAboutUs .main .row-advantage strong{
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 25px;
+}
+.pageAboutUs .main .row-culture{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pageAboutUs .main .row-culture strong{
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 25px;
+}
+.pageAboutUs .main .row-culture>div:nth-child(1) strong{
+  color: #1e81c4;
+}
+.pageAboutUs .main .row-culture>div:nth-child(2) strong{
+  color: #3cbda1;
+}
+.pageAboutUs .main .row-culture>div:nth-child(3) strong{
+  color: #f59242;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .pageAboutUs .banner{
+    background: url(../img/aboutus/img_01.png) no-repeat 50% 50%;
+  }
+  .pageAboutUs .main .row-advantage{
+    padding: 0 150px;
+    margin-bottom: 50px;
+  }
+  .pageAboutUs .main .row-advantage>div{
+    padding: 0 40px;
+  }
+  .pageAboutUs .main .row-culture{
+    margin-bottom: 50px;
+  }
+  .pageAboutUs .main .row-culture p{
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.pageProd .main img{
+  display: inline-block;
+  max-width: 100%;
+}
+.pageProd .main .row{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #ededed;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .pageProd .main .row{
+    padding: 50px 0;
+  }
+  .pageProd .main .row>div:nth-child(1) .titInfo{
+    text-align: left;
+  }
+  .pageProd .main .row-r>div:nth-child(1){
+    float: right;
+  }
+  .pageProd .main .row-r>div:nth-child(2){
+    float: left;
+  }
+  .pageProdAb .banner{
+    background: url(../img/prod/ab/img_01.png) no-repeat 50% 50%;
+  }
+  .pageProdAllRound .banner{
+    background: url(../img/prod/allRound/img_01.png) no-repeat 50% 50%;
+  }
+  .pageProdProfession .banner{
+    background: url(../img/prod/profession/img_01.png) no-repeat 50% 50%;
+  }
+  .pageProdsurvey .banner{
+    background: url(../img/prod/survey/img_01.png) no-repeat 50% 50%;
+  }
+  .pageProdLab .banner{
+    background: url(../img/prod/lab/img_01.png) no-repeat 50% 50%;
+  }
+}

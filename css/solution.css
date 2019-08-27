@@ -1,0 +1,140 @@
+@charset "UTF-8";
+.pageSolution .main img{
+  display: inline-block;
+  max-width: 100%;
+}
+.pageSolution .main .row{
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.pageSolution .banner strong{
+  text-shadow: 0px 0px 0px #fff!important;
+}
+.pageSolution .main .box1 .titInfo{
+  margin-bottom: 20px;
+}
+.pageSolution .main .row-01{
+  padding: 0px!important;
+}
+
+.pageSolution .main .row-01 img{
+  max-width: 100%;
+}
+.pageSolution .main .row-01 .row{
+  padding: 10px 0;;
+}
+.pageSolution .main .row-01 strong{
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.pageSolution .main .row-01 p{
+  font-size: 12px;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .pageSolution .main .row{
+    padding-top: 150px;
+    padding-bottom: 30px;
+  }
+  .pageSolution .main .row-01{
+    text-align: center;
+    padding-top: 50px!important;
+    margin-bottom: 30px;
+  }
+  .pageSolution .main .row-01 .row{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  .pageSolution .main .row-01 strong{
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+  .pageSolution .main .row-01>div{
+    padding: 0 40px;
+  }
+  .pageSolution .main .row>div:nth-child(1) .titInfo{
+    text-align: left;
+  }
+  .pageSolution .main .row-r>div:nth-child(1){
+    float: right;
+  }
+  .pageSolution .main .row-r>div:nth-child(2){
+    float: left;
+  }
+  .pageSolution .banner{
+    height: 680px;
+  }
+  
+  .pageSolutionCar .banner{
+    background: url(../img/solution/car/img_01.png) no-repeat 50% 50%;
+  }
+  .pageSolutionCar .banner strong{
+    color: #009cde!important;
+  }
+  .pageSolutionCar .banner .row>div{
+    color: #474747!important;
+  }
+  .pageSolutionCar .box2{
+    height: 520px;
+    background: #f2f2f2 url(../img/solution/car/img_05.png) no-repeat 0 50%;
+  }
+  .pageSolutionCar .box3{
+    height: 520px;
+    background: url(../img/solution/car/img_06.png) no-repeat 100% 50%;
+  }
+  .pageSolutionCar .box4{
+    height: 520px;
+    background: #f3f3f3 url(../img/solution/car/img_07.png) no-repeat 0 50%;
+  }
+  .pageSolutionE .banner{
+    background: url(../img/solution/e-commerce/img_01.png) no-repeat 50% 50%;
+  }
+  .pageSolutionEducation .banner{
+    background: url(../img/solution/education/img_01.png) no-repeat 50% 50%;
+  }
+  .pageSolutionEducation .banner strong{
+    color: #0d7114!important;
+  }
+  .pageSolutionFinance .banner{
+    background: url(../img/solution/finance/img_01.png) no-repeat 50% 50%;
+  }
+  .pageSolutionFinance .banner strong{
+    color: #009cde!important;
+  }
+  .pageSolutionFinance .banner .row>div{
+    color: #474747!important;
+  }
+  .pageSolutionMedical .banner{
+    background: url(../img/solution/medical/img_01.png) no-repeat 50% 50%;
+  }
+  .pageSolutionMedical .banner strong{
+    color: #009cde!important;
+  }
+  .pageSolutionMedical .banner .row>div{
+    color: #474747!important;
+  }
+  .pageSolutionTour .banner{
+    background: url(../img/solution/tour/img_01.png) no-repeat 50% 50%;
+  }
+  .pageSolutionTour .banner strong{
+    color: #009cde!important;
+  }
+  .pageSolutionTour .banner .row>div{
+    color: #474747!important;
+  }
+}

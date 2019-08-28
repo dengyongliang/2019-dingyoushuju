@@ -33,6 +33,18 @@
 .pageSolution .main .row-01 p{
   font-size: 12px;
 }
+.pageSolution .main .row-l,
+.pageSolution .main .row-r{
+  position: relative;
+}
+.pageSolution .main .row-l>div:nth-child(1),
+.pageSolution .main .row-r>div:nth-child(1){
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
 
@@ -64,6 +76,9 @@
     margin-bottom: 25px;
     margin-top: 10px;
   }
+  .pageSolution .main .row-01 p{
+    font-size: 14px;
+  }
   .pageSolution .main .row-01>div{
     padding: 0 40px;
   }
@@ -75,6 +90,15 @@
   }
   .pageSolution .main .row-r>div:nth-child(2){
     float: left;
+  }
+  .pageSolution .main .row-l,
+  .pageSolution .main .row-r{
+    position: static;
+  }
+  .pageSolution .main .row-l>div:nth-child(1),
+  .pageSolution .main .row-r>div:nth-child(1){
+    position: static;
+    width: 50%;
   }
   .pageSolution .banner{
     height: 680px;
@@ -104,11 +128,35 @@
   .pageSolutionE .banner{
     background: url(../img/solution/e-commerce/img_01.png) no-repeat 50% 50%;
   }
+  .pageSolutionE .box2{
+    height: 520px;
+    background: #f2f2f2 url(../img/solution/e-commerce/img_05.png) no-repeat 0 50%;
+  }
+  .pageSolutionE .box3{
+    height: 520px;
+    background: url(../img/solution/e-commerce/img_06.png) no-repeat 100% 50%;
+  }
+  .pageSolutionE .box4{
+    height: 520px;
+    background: #f3f3f3 url(../img/solution/e-commerce/img_07.png) no-repeat 0 50%;
+  }
   .pageSolutionEducation .banner{
     background: url(../img/solution/education/img_01.png) no-repeat 50% 50%;
   }
   .pageSolutionEducation .banner strong{
     color: #0d7114!important;
+  }
+  .pageSolutionEducation .box2{
+    height: 520px;
+    background: #f2f2f2 url(../img/solution/education/img_05.png) no-repeat 0 50%;
+  }
+  .pageSolutionEducation .box3{
+    height: 520px;
+    background: url(../img/solution/education/img_06.png) no-repeat 100% 50%;
+  }
+  .pageSolutionEducation .box4{
+    height: 520px;
+    background: #f3f3f3 url(../img/solution/education/img_07.png) no-repeat 0 50%;
   }
   .pageSolutionFinance .banner{
     background: url(../img/solution/finance/img_01.png) no-repeat 50% 50%;
@@ -119,6 +167,18 @@
   .pageSolutionFinance .banner .row>div{
     color: #474747!important;
   }
+  .pageSolutionFinance .box2{
+    height: 520px;
+    background: #f2f2f2 url(../img/solution/finance/img_05.png) no-repeat 0 50%;
+  }
+  .pageSolutionFinance .box3{
+    height: 520px;
+    background: url(../img/solution/finance/img_06.png) no-repeat 100% 50%;
+  }
+  .pageSolutionFinance .box4{
+    height: 520px;
+    background: #f3f3f3 url(../img/solution/finance/img_07.png) no-repeat 0 50%;
+  }
   .pageSolutionMedical .banner{
     background: url(../img/solution/medical/img_01.png) no-repeat 50% 50%;
   }
@@ -128,6 +188,18 @@
   .pageSolutionMedical .banner .row>div{
     color: #474747!important;
   }
+  .pageSolutionMedical .box2{
+    height: 520px;
+    background: #f2f2f2 url(../img/solution/medical/img_05.png) no-repeat 0 50%;
+  }
+  .pageSolutionMedical .box3{
+    height: 520px;
+    background: url(../img/solution/medical/img_06.png) no-repeat 100% 50%;
+  }
+  .pageSolutionMedical .box4{
+    height: 520px;
+    background: #f3f3f3 url(../img/solution/medical/img_07.png) no-repeat 0 50%;
+  }
   .pageSolutionTour .banner{
     background: url(../img/solution/tour/img_01.png) no-repeat 50% 50%;
   }
@@ -136,5 +208,17 @@
   }
   .pageSolutionTour .banner .row>div{
     color: #474747!important;
+  }
+  .pageSolutionTour .box2{
+    height: 520px;
+    background: #f2f2f2 url(../img/solution/tour/img_05.png) no-repeat 0 50%;
+  }
+  .pageSolutionTour .box3{
+    height: 520px;
+    background: url(../img/solution/tour/img_06.png) no-repeat 100% 50%;
+  }
+  .pageSolutionTour .box4{
+    height: 520px;
+    background: #f3f3f3 url(../img/solution/tour/img_07.png) no-repeat 0 50%;
   }
 }

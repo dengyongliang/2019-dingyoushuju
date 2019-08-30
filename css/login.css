@@ -1,9 +1,14 @@
 @charset "UTF-8";
 .pageLogin.container{
   height: 100vh;
-  background: url(../img/bg_login.png) no-repeat 50% 50%;
+  background: #fff;
   background-size: cover;
   overflow: auto;
+}
+.pageLogin .navbar{
+  border-bottom: 1px solid #d8d8d8;
+  margin: 0 -15px 50px -15px;
+  box-shadow:2px 2px 5px rgba(0,0,0,.1);
 }
 .pageLogin .form-signin {
   margin: 0 auto;
@@ -11,10 +16,11 @@
   padding: 0 5px;
 }
 .pageLogin .form-signin .form-signin-body strong{
-  font-size: 18px;
+  font-size: 30px;
   color: #009cde;
   display: block;
   margin-bottom: 30px;
+  font-weight: normal;
 }
 .pageLogin .form-signin .form-signin-body .item{
   position: relative;
@@ -79,6 +85,7 @@
     display:table;
     margin: 0px;
     padding: 0px;
+    background: url(../img/bg_login.png) no-repeat 50% 50%;
   }
   .pageLogin .form-signin {
     width: 493px;

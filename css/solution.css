@@ -45,6 +45,23 @@
   width: 100%;
   z-index: 1;
 }
+.pageSolution .main .box2 .container,
+.pageSolution .main .box3 .container,
+.pageSolution .main .box4 .container{
+  padding: 0px;
+}
+.pageSolution .main .box2 .container .titInfo,
+.pageSolution .main .box3 .container .titInfo,
+.pageSolution .main .box4 .container .titInfo{
+  margin: 0 15px;
+  padding-top: 20px;
+}
+.pageSolutionFinance .banner strong{
+  color: #009cde!important;
+}
+.pageSolutionFinance .banner .row>div{
+  color: #474747!important;
+}
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
 

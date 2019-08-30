@@ -1,9 +1,14 @@
 @charset "UTF-8";
 .pageReg.container{
   height: 100vh;
-  background: url(../img/bg_login.png) no-repeat 50% 50%;
+  background: #fff;
   background-size: cover;
   overflow: auto;
+}
+.pageReg .navbar{
+  border-bottom: 1px solid #d8d8d8;
+  margin: 0 -15px 50px -15px;
+  box-shadow:2px 2px 5px rgba(0,0,0,.1);
 }
 .pageReg .form-signin {
   margin: 0 auto;
@@ -11,10 +16,11 @@
   padding: 0 5px;
 }
 .pageReg .form-signin .form-signin-body strong{
-  font-size: 18px;
+  font-size: 30px;
   color: #009cde;
   display: block;
   margin-bottom: 30px;
+  font-weight: normal;
 }
 .pageReg .form-signin .form-signin-body .item{
   position: relative;
@@ -77,6 +83,40 @@
   right: 0px;
   top: 10px;
 }
+.pageReg .form-signin .img{
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
+  border: 1px dashed #cccccc;
+  border-radius: 5px;
+  position: relative;
+  min-height: 150px;
+}
+.pageReg .form-signin .img input{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer;
+}
+.pageReg .form-signin .img .cover{
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  margin-top: -11%;
+}
+.pageReg .form-signin .img .cover i{
+  color: #ddd;
+  font-size: 100px;
+  display: inline-block;
+  line-height: 50px;
+}
+.pageReg .form-signin .img .cover p{
+  color: #999
+}
 .pageReg .footer{
   font-size: 12px;
   color: #fff;
@@ -89,6 +129,7 @@
     display:table;
     margin: 0px;
     padding: 0px;
+    background: url(../img/bg_login.png) no-repeat 50% 50%;
   }
   .pageReg .form-signin {
     width: 493px;
@@ -133,7 +174,7 @@
   .pageReg .form-signin .getVCode{
     top: 15px;
   }
-  .pageReg .form-signin .img{
+  /* .pageReg .form-signin .img{
     width: 100%;
     height: auto;
     background: #f4f4f4;
@@ -166,7 +207,7 @@
   }
   .pageReg .form-signin .img .cover p{
     color: #999
-  }
+  } */
   .pageReg .footer{
     font-size: 14px;
   }

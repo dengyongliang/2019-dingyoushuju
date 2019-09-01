@@ -1,10 +1,3 @@
-<!--
- * @Description: In User Settings Edit
- * @Author: your name
- * @Date: 2019-08-22 13:08:51
- * @LastEditTime: 2019-08-28 17:03:08
- * @LastEditors: Please set LastEditors
- -->
 <!doctype html>
 <html lang="en">
 
@@ -37,15 +30,34 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="./index.html">产品与服务</a></li>
-                    <li><a href="./account.html">解决方案</a></li>
-                    <li><a href="./dossier.html">案例展示</a></li>
-                    <li><a href="./attestation.html">关于我们</a></li>
+                    <li class="active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品与服务</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./prod_ab.html">AB实验室</a></li>
+                            <li><a href="./prod_allRound.html">全能分析</a></li>
+                            <li><a href="./prod_lab.html">实验室</a></li>
+                            <li><a href="./prod_survey.html">调研工具</a></li>
+                            <li><a href="./prod_profession.html">专业咨询</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决方案</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./solution_e-commerce.html">电商</a></li>
+                            <li><a href="./solution_education.html">教育</a></li>
+                            <li><a href="./solution_finance.html">金融</a></li>
+                            <li><a href="./solution_tour.html">旅游</a></li>
+                            <li><a href="./solution_car.html">汽车</a></li>
+                            <li><a href="./solution_medical.html">医疗美容</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./case.html">案例展示</a></li>
+                    <li><a href="./aboutus.html">关于我们</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
             <div class="navbar-right">
-                <a href="login.html" class="login">登录</a>
+                <a href="./login.html" class="login">登录</a>
                 <span class="line">|</span>
                 <a href="#" class="toTry">免费试用</a>
             </div>

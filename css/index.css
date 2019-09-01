@@ -7,20 +7,96 @@
   padding-top: 0px;
   padding-bottom: 30px;
 }
+.pageIndex .navbar{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  z-index: 1;
+  background: none;
+}
+.pageIndex .navbar .navbar-header button span{
+  background: #fff!important;
+}
+.navbar button:hover{
+  background: none!important;
+}
+.navbar .navbar-nav li a{
+  color: #333;
+}
+.navbar .navbar-nav li a:hover{
+  background: none;
+  color: #333;
+}
+.navbar .navbar-right a{
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.navbar .navbar-right a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .navbar-collapse{
+  background: #fff;
+}
 .pageIndex .banner strong{
   text-shadow: 0px 0px 0px #fff!important;
 }
+.pageIndex .banner p{
+  padding-top: 40px;
+}
+.pageIndex .banner button{
+  display: inline-block;
+  background: none;
+  border-color: #fff;
+  color: #fff;
+  padding: 0 30px;
+  height: 38px;
+  line-height: 38px;
+  margin-right: 15px;
+  text-shadow: 0px 0px 0px #fff!important;
+}
+.pageIndex .banner button:hover{
+  color: #009cde;
+  background: #fff;
+}
 .pageIndex .main .box1 .titInfo{
   margin-bottom: 50px;
+  padding: 0 15px;
+  margin-bottom: 30px;
 }
-.pageIndex .main .row-hd>div{
+.pageIndex .main .row-hd{
+  padding: 0px;
+  border: none;
+}
+.pageIndex .main .row-hd>li{
   width: 20%!important;
   float: left;
   box-sizing: border-box;
   padding: 0 10px;
+  list-style: none;
+  position: relative;
 }
 .pageIndex .main .row-hd img{
   max-width: 100%;
+}
+.pageIndex .main .row-hd a{
+  text-decoration: none;
+  border: none!important;
+}
+.pageIndex .box1 .row-hd>li.active::after{
+  content: "";
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  border-color: transparent transparent #f5f5f5;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -25px;
 }
 .pageIndex .main .row-hd strong{
   font-size: 12px;
@@ -29,9 +105,29 @@
   margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
+  color: #333;
+}
+.pageIndex .main .bd {
+  background: #f5f5f5;
+  margin: 0 -15px;
+}
+.pageIndex .bd .titInfo{
+  text-align: left;
+  margin-bottom: 0px!important;
+}
+.pageIndex .bd .titInfo button{
+  background: none;
+  border-color: #236fcd;
+  color: #236fcd;
+  padding: 0 30px;
+  height: 38px;
+  line-height: 38px;
 }
 .pageIndex .box2 {
   background: #f5f5f5;
+}
+.pageIndex .box2 .row-l>div:nth-child(1){
+  padding: 0px;
 }
 .pageIndex .box2 .titInfo{
   margin-bottom: 0px!important;
@@ -60,6 +156,23 @@
   -moz-box-shadow:0px 0px 5px rgba(0,0,0,.5);
   -webkit-box-shadow:0px 0px 5px rgba(0,0,0,.5);
   box-shadow:0px 0px 5px rgba(0,0,0,.5);
+}
+.pageIndex .box3 a {
+  display: block;
+  position: relative;
+}
+.pageIndex .box3 a span{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(255,255,255,.7);
+  color: #333;
 }
 .pageIndex .box4{
   background: #f5f5f5;
@@ -141,17 +254,40 @@
   .pageIndex .main .row-l>div:nth-child(2) .titInfo{
     text-align: left;
   }
-  .pageIndex .banner{
-    height: 680px;
+  .navbar .navbar-collapse{
+    background: none!important;
+  }
+  .navbar .navbar-nav li a{
+    color: #fff;
+  }
+  .navbar .navbar-nav li a:hover{
+    background: none;
+    color: #fff;
+  }
+  .navbar .navbar-right .toTry{
+    height: 38px;
+    line-height: 35px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-left: 20px;
   }
   .pageIndex .banner{
-    background: url(../img/solution/car/img_01.png) no-repeat 50% 50%;
+    height: 800px;
+    background: url(../img/index/img_01.png) no-repeat 50% 50%;
   }
-  .pageIndex .banner strong{
-    color: #009cde!important;
+  .pageIndex .banner p{
+    padding-top: 40px;
   }
-  .pageIndex .banner .row>div{
-    color: #474747!important;
+  .pageIndex .banner .row{
+    top: 200px;
+  }
+  .pageIndex .main .box1 .container{
+    width: auto;
+    padding-bottom: 0px;
+  }
+  .pageIndex .main .box1 .titInfo{
+    margin-bottom: 40px;
   }
   .pageIndex .main .row-hd{
     padding: 0px 50px!important;
@@ -159,9 +295,69 @@
   .pageIndex .main .row-hd strong{
     font-size: 16px;
   }
+
+  .pageIndex .box1 .row-hd{
+    width: 1200px;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 35px;
+  }
+  .pageIndex .box1 .row-hd>li{
+    position: relative;
+  }
+  .pageIndex .box1 .row-hd>li.active::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 25px solid;
+    border-color: transparent transparent #f5f5f5;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -15px;
+  }
+  .pageIndex .box1 .bd>div{
+    height: 650px;
+  }
+  .pageIndex .box1 .bd>div .row{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .pageIndex .box1 .bd>div .titInfo{
+    text-align: left;
+    padding-top: 100px;
+  }
+  .pageIndex .box1 .bd>div .titInfo p{
+    margin-bottom: 40px;
+  }
+  .pageIndex .box1 .bd>div .titInfo button{
+    background: none;
+    border-color: #236fcd;
+    color: #236fcd;
+    padding: 0 30px;
+    height: 38px;
+    line-height: 38px;
+  }
+  .pageIndex .box1 .bd>div:nth-child(1){
+    background: #f5f5f5 url(../img/index/img_07.png) no-repeat 50% 50%;
+  }
+  .pageIndex .box1 .bd>div:nth-child(2){
+    background: #f5f5f5 url(../img/index/img_08.png) no-repeat 50% 50%;
+  }
+  .pageIndex .box1 .bd>div:nth-child(3){
+    background: #f5f5f5 url(../img/index/img_09.png) no-repeat 50% 50%;
+  }
+  .pageIndex .box1 .bd>div:nth-child(4){
+    background: #f5f5f5 url(../img/index/img_10.png) no-repeat 50% 50%;
+  }
+  .pageIndex .box1 .bd>div:nth-child(5){
+    background: #f5f5f5 url(../img/index/img_11.png) no-repeat 50% 50%;
+  }
   .pageIndex .box2{
     height: 685px;
-    background: #f2f2f2 url(../img/index/img_12.png) no-repeat 0 50%;
+    background: #f2f2f2 url(../img/index/img_12.png) no-repeat 50% 50%;
   }
   .pageIndex .box2 .row{
     padding-top: 150px;
@@ -175,6 +371,11 @@
   .pageIndex .box3 .row>div{
     margin-bottom: 30px;
     padding: 0px!important;
+  }
+  .pageIndex .box3 a span{
+    height: 63px;
+    line-height: 63px;
+    font-size: 16px;
   }
   .pageIndex .box4 .wrap{
     max-width: 1200px;

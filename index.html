@@ -1,10 +1,3 @@
-<!--
- * @Description: In User Settings Edit
- * @Author: your name
- * @Date: 2019-08-22 13:08:51
- * @LastEditTime: 2019-08-28 17:20:23
- * @LastEditors: Please set LastEditors
- -->
 <!doctype html>
 <html lang="en">
 
@@ -31,22 +24,40 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo_2.png" alt=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="./index.html">产品与服务</a></li>
-                    <li><a href="./account.html">解决方案</a></li>
-                    <li><a href="./dossier.html">案例展示</a></li>
-                    <li><a href="./attestation.html">关于我们</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品与服务</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./prod_ab.html">AB实验室</a></li>
+                            <li><a href="./prod_allRound.html">全能分析</a></li>
+                            <li><a href="./prod_lab.html">实验室</a></li>
+                            <li><a href="./prod_survey.html">调研工具</a></li>
+                            <li><a href="./prod_profession.html">专业咨询</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决方案</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./solution_e-commerce.html">电商</a></li>
+                            <li><a href="./solution_education.html">教育</a></li>
+                            <li><a href="./solution_finance.html">金融</a></li>
+                            <li><a href="./solution_tour.html">旅游</a></li>
+                            <li><a href="./solution_car.html">汽车</a></li>
+                            <li><a href="./solution_medical.html">医疗美容</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./case.html">案例展示</a></li>
+                    <li><a href="./aboutus.html">关于我们</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
             <div class="navbar-right">
-                <a href="login.html" class="login">登录</a>
-                <span class="line">|</span>
+                <a href="./login.html" class="login">登录</a>
                 <a href="#" class="toTry">免费试用</a>
             </div>
         </div>
@@ -54,12 +65,13 @@
     </nav>
     <div class="main">
         <div class="banner">
-            <img src="./img/prod/img_01.png" alt="" class="hidden-lg">
+            <img src="./img/index/img_27.png" alt="" class="hidden-lg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12"><strong>汽车行业<br />解决方案</strong></div>
-                    <div class="col-md-12">汽车行业不缺客户，缺的是留住客户和客户转化的方法，<br />
-                            做好服务就能让更多的流动客户成为忠诚客户。</div>
+                    <div class="col-md-12"><strong>欢迎与我们一同携手，<br />探索大数据世界</strong></div>
+                    <div class="col-md-12">数据驱动业务，分析引领增长
+                        <p><button type="button" class="btn btn-default">体验Demo</button><button type="button" class="btn btn-default">观看视频</button></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -70,26 +82,93 @@
                     <p>鼎优数据提供从采集、建模、分析、赋能等全流程数据分析解决方案，通过数据驱动企业决策</p>
                     <b></b>
                 </div>
-                <div class="row row-hd">
-                    <div class="">
-                        <img src="./img/index/img_02.png" alt="">
-                        <strong>AB实验</strong>
+                <ul class="row row-hd nav-tabs" role="tablist">
+                    <li class="active" role="presentation">
+                        <a href="#ab" aria-controls="ab" role="tab" data-toggle="tab">
+                            <img src="./img/index/img_02.png" alt="">
+                            <strong>AB实验</strong>
+                        </a>
+                    </li>
+                    <li class="" role="presentation">
+                        <a href="#allRound" aria-controls="allRound" role="tab" data-toggle="tab">
+                            <img src="./img/index/img_03.png" alt="">
+                            <strong>全能分析</strong>
+                        </a>
+                    </li>
+                    <li class="" role="presentation">
+                        <a href="#profession" aria-controls="profession" role="tab" data-toggle="tab">
+                            <img src="./img/index/img_04.png" alt="">
+                            <strong>专业咨询</strong>
+                        </a>
+                    </li>
+                    <li class="" role="presentation">
+                        <a href="#survey" aria-controls="survey" role="tab" data-toggle="tab">
+                            <img src="./img/index/img_05.png" alt="">
+                            <strong>调研工具</strong>
+                        </a>
+                    </li>
+                    <li class="" role="presentation">
+                        <a href="#lab" aria-controls="lab" role="tab" data-toggle="tab">
+                            <img src="./img/index/img_06.png" alt="">
+                            <strong>实验室</strong>
+                        </a>
+                    </li>
+                </ul>
+                <div class="bd tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="ab">
+                        <div class="row row-l">
+                            <div class="col-md-5 col-xs-12">
+                                <div class="titInfo">
+                                    <h3 class="h3T">AB实验</h3>
+                                    <p>根据您的需求，我们提供具有针对性的实验方案。通过AB实验的数据反馈结果，帮助您改进网站或者APP的用户体验，使得推广效果最大化，推动业务的快速增长，并为产品提供合理的改进建议。使得您的业务始终在正确的方向上前进！</p>
+                                    <p><a href="./prod_ab.html"><button type="button" class="btn btn-default">了解更多</button></a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="">
-                        <img src="./img/index/img_03.png" alt="">
-                        <strong>全能分析</strong>
+                    <div role="tabpanel" class="tab-pane" id="allRound">
+                        <div class="row row-l">
+                            <div class="col-md-5 col-xs-12">
+                                <div class="titInfo">
+                                    <h3 class="h3T">全能分析</h3>
+                                    <p>关注客户需求，数据全面分析</p>
+                                    <p><a href="./prod_allRound.html"><button type="button" class="btn btn-default">了解更多</button></a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="">
-                        <img src="./img/index/img_04.png" alt="">
-                        <strong>专业咨询</strong>
+                    <div role="tabpanel" class="tab-pane" id="profession">
+                        <div class="row row-l">
+                            <div class="col-md-5 col-xs-12">
+                                <div class="titInfo">
+                                    <h3 class="h3T">专业咨询</h3>
+                                    <p>提供行业分析报告和产品、运营方案</p>
+                                    <p><a href="./prod_profession.html"><button type="button" class="btn btn-default">了解更多</button></a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="">
-                        <img src="./img/index/img_05.png" alt="">
-                        <strong>调研工具</strong>
+                    <div role="tabpanel" class="tab-pane" id="survey">
+                        <div class="row row-l">
+                            <div class="col-md-5 col-xs-12">
+                                <div class="titInfo">
+                                    <h3 class="h3T">调研工具</h3>
+                                    <p>丰富而强大的功能支持，轻松设置复杂的跳转逻辑</p>
+                                    <p><a href="./prod_survey.html"><button type="button" class="btn btn-default">了解更多</button></a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="">
-                        <img src="./img/index/img_06.png" alt="">
-                        <strong>实验室</strong>
+                    <div role="tabpanel" class="tab-pane" id="lab">
+                        <div class="row row-l">
+                            <div class="col-md-5 col-xs-12">
+                                <div class="titInfo">
+                                    <h3 class="h3T">实验室</h3>
+                                    <p>个性化让您的产品为各类客户提供贴心的服务</p>
+                                    <p><a href="./prod_lab.html"><button type="button" class="btn btn-default">了解更多</button></a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,7 +177,7 @@
             <div class="container">
                 <div class="row row-l">
                     <div class="col-md-7 col-xs-12">
-                        <img src="./img/prod/ab/img_03.png" alt="" class="hidden-lg" />
+                        <img src="./img/index/img_28.png" alt="" class="hidden-lg" />
                     </div>
                     <div class="col-md-5 col-xs-12">
                         <div class="titInfo">
@@ -136,22 +215,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
-                        <img src="./img/index/img_17.png" alt="">
+                        <a href="./solution_e-commerce.html"><img src="./img/index/img_17.png" alt=""><span>电子商务</span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <img src="./img/index/img_18.png" alt="">
+                        <a href="./solution_education.html"><img src="./img/index/img_18.png" alt=""><span>教育</span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <img src="./img/index/img_19.png" alt="">
+                        <a href="./solution_finance.html"><img src="./img/index/img_19.png" alt=""><span>金融</span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <img src="./img/index/img_20.png" alt="">
+                        <a href="./solution_tour.html"><img src="./img/index/img_20.png" alt=""><span>旅游</span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <img src="./img/index/img_21.png" alt="">
+                        <a href="./solution_medical.html"><img src="./img/index/img_21.png" alt=""><span>医疗美容</span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <img src="./img/index/img_22.png" alt="">
+                        <a href="./solution_car.html"><img src="./img/index/img_22.png" alt=""><span>汽车</span></a>
                     </div>
                 </div>
             </div>

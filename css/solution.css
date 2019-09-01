@@ -5,7 +5,6 @@
 }
 .pageSolution .main .row{
   padding-top: 0px;
-  padding-bottom: 30px;
 }
 .pageSolution .banner strong{
   text-shadow: 0px 0px 0px #fff!important;
@@ -15,6 +14,7 @@
 }
 .pageSolution .main .row-01{
   padding: 0px!important;
+  padding-bottom: 30px!important;
 }
 
 .pageSolution .main .row-01 img{
@@ -60,6 +60,30 @@
   color: #009cde!important;
 }
 .pageSolutionFinance .banner .row>div{
+  color: #474747!important;
+}
+.pageSolutionCar .banner strong{
+  color: #009cde!important;
+}
+.pageSolutionCar .banner .row>div{
+  color: #474747!important;
+}
+.pageSolutionEducation .banner strong{
+  color: #0d7114!important;
+}
+.pageSolutionEducation .banner .row>div{
+  color: #474747!important;
+}
+.pageSolutionMedical .banner strong{
+  color: #009cde!important;
+}
+.pageSolutionMedical .banner .row>div{
+  color: #474747!important;
+}
+.pageSolutionTour .banner strong{
+  color: #009cde!important;
+}
+.pageSolutionTour .banner .row>div{
   color: #474747!important;
 }
 /* 小屏幕（平板，大于等于 768px） */
@@ -124,56 +148,49 @@
   .pageSolutionCar .banner{
     background: url(../img/solution/car/img_01.png) no-repeat 50% 50%;
   }
-  .pageSolutionCar .banner strong{
-    color: #009cde!important;
-  }
-  .pageSolutionCar .banner .row>div{
-    color: #474747!important;
-  }
+
   .pageSolutionCar .box2{
     height: 520px;
-    background: #f2f2f2 url(../img/solution/car/img_05.png) no-repeat 0 50%;
+    background: #f2f2f2 url(../img/solution/car/img_05.png) no-repeat 50% 50%;
   }
   .pageSolutionCar .box3{
     height: 520px;
-    background: url(../img/solution/car/img_06.png) no-repeat 100% 50%;
+    background: url(../img/solution/car/img_06.png) no-repeat 50% 50%;
   }
   .pageSolutionCar .box4{
     height: 520px;
-    background: #f3f3f3 url(../img/solution/car/img_07.png) no-repeat 0 50%;
+    background: #f3f3f3 url(../img/solution/car/img_07.png) no-repeat 50% 50%;
   }
   .pageSolutionE .banner{
     background: url(../img/solution/e-commerce/img_01.png) no-repeat 50% 50%;
   }
   .pageSolutionE .box2{
     height: 520px;
-    background: #f2f2f2 url(../img/solution/e-commerce/img_05.png) no-repeat 0 50%;
+    background: #f2f2f2 url(../img/solution/e-commerce/img_05.png) no-repeat 50% 50%;
   }
   .pageSolutionE .box3{
     height: 520px;
-    background: url(../img/solution/e-commerce/img_06.png) no-repeat 100% 50%;
+    background: url(../img/solution/e-commerce/img_06.png) no-repeat 50% 50%;
   }
   .pageSolutionE .box4{
     height: 520px;
-    background: #f3f3f3 url(../img/solution/e-commerce/img_07.png) no-repeat 0 50%;
+    background: #f3f3f3 url(../img/solution/e-commerce/img_07.png) no-repeat 50% 50%;
   }
   .pageSolutionEducation .banner{
     background: url(../img/solution/education/img_01.png) no-repeat 50% 50%;
   }
-  .pageSolutionEducation .banner strong{
-    color: #0d7114!important;
-  }
+
   .pageSolutionEducation .box2{
     height: 520px;
-    background: #f2f2f2 url(../img/solution/education/img_05.png) no-repeat 0 50%;
+    background: #f2f2f2 url(../img/solution/education/img_05.png) no-repeat 50% 50%;
   }
   .pageSolutionEducation .box3{
     height: 520px;
-    background: url(../img/solution/education/img_06.png) no-repeat 100% 50%;
+    background: url(../img/solution/education/img_06.png) no-repeat 50% 50%;
   }
   .pageSolutionEducation .box4{
     height: 520px;
-    background: #f3f3f3 url(../img/solution/education/img_07.png) no-repeat 0 50%;
+    background: #f3f3f3 url(../img/solution/education/img_07.png) no-repeat 50% 50%;
   }
   .pageSolutionFinance .banner{
     background: url(../img/solution/finance/img_01.png) no-repeat 50% 50%;
@@ -186,56 +203,46 @@
   }
   .pageSolutionFinance .box2{
     height: 520px;
-    background: #f2f2f2 url(../img/solution/finance/img_05.png) no-repeat 0 50%;
+    background: #f2f2f2 url(../img/solution/finance/img_05.png) no-repeat 50% 50%;
   }
   .pageSolutionFinance .box3{
     height: 520px;
-    background: url(../img/solution/finance/img_06.png) no-repeat 100% 50%;
+    background: url(../img/solution/finance/img_06.png) no-repeat 50% 50%;
   }
   .pageSolutionFinance .box4{
     height: 520px;
-    background: #f3f3f3 url(../img/solution/finance/img_07.png) no-repeat 0 50%;
+    background: #f3f3f3 url(../img/solution/finance/img_07.png) no-repeat 50% 50%;
   }
   .pageSolutionMedical .banner{
     background: url(../img/solution/medical/img_01.png) no-repeat 50% 50%;
   }
-  .pageSolutionMedical .banner strong{
-    color: #009cde!important;
-  }
-  .pageSolutionMedical .banner .row>div{
-    color: #474747!important;
-  }
+
   .pageSolutionMedical .box2{
     height: 520px;
-    background: #f2f2f2 url(../img/solution/medical/img_05.png) no-repeat 0 50%;
+    background: #f2f2f2 url(../img/solution/medical/img_05.png) no-repeat 50% 50%;
   }
   .pageSolutionMedical .box3{
     height: 520px;
-    background: url(../img/solution/medical/img_06.png) no-repeat 100% 50%;
+    background: url(../img/solution/medical/img_06.png) no-repeat 50% 50%;
   }
   .pageSolutionMedical .box4{
     height: 520px;
-    background: #f3f3f3 url(../img/solution/medical/img_07.png) no-repeat 0 50%;
+    background: #f3f3f3 url(../img/solution/medical/img_07.png) no-repeat 50% 50%;
   }
   .pageSolutionTour .banner{
     background: url(../img/solution/tour/img_01.png) no-repeat 50% 50%;
   }
-  .pageSolutionTour .banner strong{
-    color: #009cde!important;
-  }
-  .pageSolutionTour .banner .row>div{
-    color: #474747!important;
-  }
+
   .pageSolutionTour .box2{
     height: 520px;
-    background: #f2f2f2 url(../img/solution/tour/img_05.png) no-repeat 0 50%;
+    background: #f2f2f2 url(../img/solution/tour/img_05.png) no-repeat 50% 50%;
   }
   .pageSolutionTour .box3{
     height: 520px;
-    background: url(../img/solution/tour/img_06.png) no-repeat 100% 50%;
+    background: url(../img/solution/tour/img_06.png) no-repeat 50% 50%;
   }
   .pageSolutionTour .box4{
     height: 520px;
-    background: #f3f3f3 url(../img/solution/tour/img_07.png) no-repeat 0 50%;
+    background: #f3f3f3 url(../img/solution/tour/img_07.png) no-repeat 50% 50%;
   }
 }

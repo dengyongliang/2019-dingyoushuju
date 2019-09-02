@@ -3,16 +3,14 @@
   display: inline-block;
   max-width: 100%;
 }
+.pageIndex .main{
+  padding-top: 0px;
+}
 .pageIndex .main .row{
   padding-top: 0px;
   padding-bottom: 30px;
 }
 .pageIndex .navbar{
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  left: 0px;
-  z-index: 1;
   background: none;
 }
 .pageIndex .navbar .navbar-header button span{
@@ -110,6 +108,7 @@
 .pageIndex .main .bd {
   background: #f5f5f5;
   margin: 0 -15px;
+  overflow: hidden;
 }
 .pageIndex .bd .titInfo{
   text-align: left;
@@ -271,6 +270,11 @@
     border-radius: 5px;
     padding: 0 20px;
     margin-left: 20px;
+  }
+  .navbar .navbar-right .toTry:hover{
+    color: #fff;
+    background: #009cde;
+    border-color: #009cde;
   }
   .pageIndex .banner{
     height: 800px;

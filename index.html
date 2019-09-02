@@ -14,7 +14,7 @@
 </head>
 
 <body class="pageIndex">
-    <nav class="navbar">
+    <nav class="navbar active">
         <div class="container container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -58,6 +58,7 @@
             <!-- /.navbar-collapse -->
             <div class="navbar-right">
                 <a href="./login.html" class="login">登录</a>
+                <span class="line">|</span>
                 <a href="#" class="toTry">免费试用</a>
             </div>
         </div>
@@ -215,22 +216,29 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
-                        <a href="./solution_e-commerce.html"><img src="./img/index/img_17.png" alt=""><span>电子商务</span></a>
+                        <a href="./solution_e-commerce.html"><img src="./img/index/img_17.png" alt="">
+                            <span><em>电子商务</em><i class="glyphicon glyphicon-arrow-right"></i></span>
+                        </a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <a href="./solution_education.html"><img src="./img/index/img_18.png" alt=""><span>教育</span></a>
+                        <a href="./solution_education.html"><img src="./img/index/img_18.png" alt="">
+                            <span><em>教育</em><i class="glyphicon glyphicon-arrow-right"></i></span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <a href="./solution_finance.html"><img src="./img/index/img_19.png" alt=""><span>金融</span></a>
+                        <a href="./solution_finance.html"><img src="./img/index/img_19.png" alt="">
+                            <span><em>金融</em><i class="glyphicon glyphicon-arrow-right"></i></span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <a href="./solution_tour.html"><img src="./img/index/img_20.png" alt=""><span>旅游</span></a>
+                        <a href="./solution_tour.html"><img src="./img/index/img_20.png" alt="">
+                            <span><em>旅游</em><i class="glyphicon glyphicon-arrow-right"></i></span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <a href="./solution_medical.html"><img src="./img/index/img_21.png" alt=""><span>医疗美容</span></a>
+                        <a href="./solution_medical.html"><img src="./img/index/img_21.png" alt="">
+                            <span><em>医疗美容</em><i class="glyphicon glyphicon-arrow-right"></i></span></a>
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <a href="./solution_car.html"><img src="./img/index/img_22.png" alt=""><span>汽车</span></a>
+                        <a href="./solution_car.html"><img src="./img/index/img_22.png" alt="">
+                            <span><em>汽车</em><i class="glyphicon glyphicon-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
@@ -280,9 +288,8 @@
         </div>
     </div>
     <div class="advBottom">
-        <a href="#">
-            <img src="./img/img_01.png" alt="" />
-        </a>
+        <strong>用鼎优数据平台提升用户转化率</strong>
+        <div><a href="#"><button type="button" class="btn btn-default">立即试用</button></a></div>
     </div>
     <!-- 页脚 -->
     <footer class="footer">
@@ -325,4 +332,22 @@
 </body>
 <script type="text/javascript" src="widget/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="widget/bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    $("body").ready(function(){
+        if($(window).scrollTop() > 80){
+            $(".navbar").removeClass("active");
+        }
+        $(window).scroll(function(){
+            var scrollTop = $(window).scrollTop();//获取当前滑动的位置
+            if(scrollTop > 80){
+                $(".navbar").removeClass("active");
+            }else{
+                $(".navbar").addClass("active");
+
+            }
+
+        })
+    })
+</script>
 </html>

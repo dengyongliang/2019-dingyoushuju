@@ -26,9 +26,21 @@
   background: none;
   color: #333;
 }
+.navbar .img1{
+  display: none!important;
+}
+.navbar .img2{
+  display: inline-block!important;
+}
+.navbar.active .img1{
+  display: inline-block!important;
+}
+.navbar.active .img2{
+  display: none!important;
+}
 .navbar.active .navbar-right a{
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 10px;
 }
 .navbar.active .navbar-right a:hover{
@@ -263,6 +275,7 @@
   .pageIndex .main .row-l>div:nth-child(2) .titInfo{
     text-align: left;
   }
+
   .navbar.active .navbar-collapse{
     background: none!important;
   }
